@@ -1,0 +1,39 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  gap: 2%; /* Use a percentage for responsive spacing */
+  padding: 20px; 
+}
+
+.card {
+  position: relative; 
+  overflow: hidden; 
+  border-radius: 10px; 
+}
+
+.card-body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  color: white; 
+  opacity: 0; 
+  transition: opacity 0.3s; /* Smooth transition */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: left; 
+}
+
+.card:hover .card-body {
+  opacity: 1; /* Show on hover */
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto; /* Change to auto to maintain aspect ratio */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  background-color: #f0f0f0; 
+}
