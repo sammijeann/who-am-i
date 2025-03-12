@@ -1,6 +1,7 @@
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); 
+  grid-template-rows: repeat(auto-fill, minmax(500px, 1fr)); 
   gap: 2%; /* Use a percentage for responsive spacing */
   padding: 20px; 
 }
@@ -9,6 +10,7 @@
   position: relative; 
   overflow: hidden; 
   border-radius: 10px; 
+  height: 300px;
 }
 
 .card-body {
@@ -33,7 +35,8 @@
 
 .card-img-top {
   width: 100%;
-  height: auto; /* Change to auto to maintain aspect ratio */
+  height: 100%; /* Change to auto to maintain aspect ratio */
   object-fit: cover; /* Ensures the image covers the area without distortion */
   background-color: #f0f0f0; 
 }
+

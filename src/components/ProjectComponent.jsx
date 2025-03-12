@@ -16,7 +16,7 @@ const Project = ({ title, imageUrl, description, projectLink }) => {
                 onError={handleError} // Handle the error event
             />
           <div className="card-body overlay">
-            <h5 className="card-title">{title}</h5>
+            <h2 className="card-title">{title}</h2>
             <p className="card-text">{description}</p>
             <div className="d-flex justify-content-between">
               <a href={projectLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary">View Project</a>
