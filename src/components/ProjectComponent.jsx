@@ -8,7 +8,7 @@ const Project = ({ title, imageUrl, description, projectLink }) => {
     };
 
     return (
-        <div className="card" style={{ width: '18rem', position: 'relative', overflow: 'hidden' }}>
+        <div className="card" >
           <img 
                 src={imageUrl} 
                 className="card-img-top" 
@@ -19,7 +19,7 @@ const Project = ({ title, imageUrl, description, projectLink }) => {
             <h2 className="card-title">{title}</h2>
             <p className="card-text">{description}</p>
             <div className="d-flex justify-content-between">
-              <a href={projectLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary">View Project</a>
+              <a href={projectLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary ">View Project</a>
             </div>
           </div>
         </div>

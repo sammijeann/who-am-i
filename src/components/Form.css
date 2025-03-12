@@ -1,0 +1,25 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-input {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 200%;
+    max-width: 600px;
+    box-sizing: border-box;
+  }
+  
+  .form-button {
+    padding: 10px 60px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background-color: #0056b3;
+  }

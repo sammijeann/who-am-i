@@ -2,16 +2,12 @@
 export default function AboutPage() {
   return (
     <div className="container pt-4">
+      <h1>Sammi Teel</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-        tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-        impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-        architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-        mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-        nostrum temporibus ad omnis nam rerum eligendi.
+      I am a Technical Artist with a focus in tool creation and materials. I enjoy utilizing technical art to help creative visions become a reality. A firm believer in the power of collaboration, I thrive on creating an environment that bridges artistic expression and technical ingenuity.
+      I completed my B.F.A. in Interactive Design and Game Development at the Savannah College of Art and Design. Join me on my journey and reach out: sammijteel@gmail.com 
       </p>
-      <section className="features-icons bg-light text-center m-4">
+      {/* <section className="features-icons bg-light text-center m-4">
         <div className="container">
           <div className="row p-2">
             <div className="col-lg-4">
@@ -50,16 +46,7 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-      </section>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-        tenetur maiores, dolor iusto dolorum ullam, natus deleniti blanditiis
-        impedit suscipit sed magnam alias in, repellat expedita hic explicabo
-        architecto soluta. About us Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Velit voluptate exercitationem quaerat pariatur
-        mollitia, excepturi, voluptatem eveniet a dolor nobis ex veniam totam
-        nostrum temporibus ad omnis nam rerum eligendi.
-      </p>
+      </section> */}
     </div>
   );
 }
